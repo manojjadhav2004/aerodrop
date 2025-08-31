@@ -1,0 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+body{
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes border-fade {
+  0%, 100% { opacity: 0.2; }
+  50%      { opacity: 1;   }
+}
+
+.animate-border-fade {
+  animation: border-fade 2s ease-in-out infinite;
+}
