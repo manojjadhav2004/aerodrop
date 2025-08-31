@@ -1,7 +1,9 @@
 import dotenv from 'dotenv';
 dotenv.config(); // Load environment variables first
 
-import Razorpay from "razorpay";
+import pkg from "razorpay";
+const Razorpay = pkg;
+
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 import mongoose from 'mongoose';
