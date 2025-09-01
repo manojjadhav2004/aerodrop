@@ -1,17 +1,16 @@
 import dotenv from 'dotenv';
 dotenv.config(); // Load environment variables first
 
-import pkg from "razorpay";
-const Razorpay = pkg;
-
-import orderModel from "../models/orderModel.js";
-import userModel from "../models/userModel.js";
-import mongoose from 'mongoose';
+import Razorpay from "razorpay";
+import mongoose from "mongoose";
 
 const razorpay = new Razorpay({
-  key_id: "rzp_test_RCCMZ6oUuxfQn2",  // your Key ID
-  key_secret: "6KXPiaTecTPG684de788q6gs"   // your Secret
+  key_id: "rzp_test_RCCMZ6oUuxfQn2",   // your test Key ID
+  key_secret: "6KXPiaTecTPG684de788q6gs" // your test Secret
 });
+
+export default razorpay;
+
 
 
 
