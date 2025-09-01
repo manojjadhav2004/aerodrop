@@ -26,13 +26,19 @@ const Footer = () => {
         <div className="text-center md:text-right text-sm text-gray-400">
           <h1 className="text-xl text-white font-semibold mb-2">Get in touch</h1>
           <a
-            href="mailto:dhadgevedant@gmail.com"
+            href="mailto:  heymanojjadhav@gmail.com"
             className="block hover:text-white transition"
           >
-            dhadgevedant@gmail.com
+          heymanojjadhav@gmail.com
+          </a>
+            <a
+            href="mailto:  vaibhavvilasjadhav333@gmail.com"
+            className="block hover:text-white transition"
+          >
+          vaibhavvilasjadhav333@gmail.com
           </a>
           <a
-            href="http://dhadge.in"
+            href=""
             target="_blank"
             rel="noreferrer"
             className="hover:text-white transition"
