@@ -29,28 +29,28 @@ const Footer = () => {
             href="mailto:  heymanojjadhav@gmail.com"
             className="block hover:text-white transition"
           >
-          heymanojjadhav@gmail.com
+          Manoj
           </a>
             <a
             href="mailto:  vaibhavvilasjadhav333@gmail.com"
             className="block hover:text-white transition"
           >
-          vaibhavvilasjadhav333@gmail.com
+          Vaibhav
           </a>
           <a
-            href=""
+            href="https://github.com/manojjadhav2004"
             target="_blank"
             rel="noreferrer"
             className="hover:text-white transition"
           >
-            dhadge.in
+            Git Hub 
           </a>
         </div>
       </div>
 
       {/* Bottom Bar */}
       <div className="text-center text-xs text-gray-500 py-4 border-t border-gray-800">
-        © {new Date().getFullYear()} Aero Drop — Built with passion by Vedant Dhadge.
+        © {new Date().getFullYear()} Aero Drop — Built with passion by Manoj and Vaibhav.
       </div>
     </footer>
   );
