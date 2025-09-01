@@ -5,14 +5,14 @@ const About = () => {
   
     {
       name: "Manoj Jadhav",
-      role: " ",
+      role: " Devloper",
       github: "https://github.com/manojjadhav2004",
       linkedin: "https://www.linkedin.com/in/manoj-jadhav-335131288/",
       email: "mailto:heymanojjadhav@gmail.com.com",
     },
     {
       name: "Vaibhav Jadhav",
-      role: " ",
+      role: "Devloper ",
       github: "https://github.com/",
       linkedin: "https://www.linkedin.com/in/vaibhav-jadhav-136035289/",
       email: "mailto:vaibhavvilasjadhav333@gmail.com",
