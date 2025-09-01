@@ -9,8 +9,8 @@ import userModel from "../models/userModel.js";
 import mongoose from 'mongoose';
 
 const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret: process.env.RAZORPAY_KEY_SECRET
+  key_id: "rzp_test_RCCMZ6oUuxfQn2",  // your Key ID
+  key_secret: "6KXPiaTecTPG684de788q6gs"   // your Secret
 });
 
 
