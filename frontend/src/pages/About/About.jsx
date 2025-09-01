@@ -2,13 +2,7 @@ import React from "react";
 
 const About = () => {
   const team = [
-    {
-      name: "Vedant Dhadge",
-      role: " ",
-      github: "https://github.com/dhadgevedant",
-      linkedin: "https://linkedin.com/in/vedantdhadge",
-      email: "mailto:dhadgevedant@gmail.com",
-    },
+  
     {
       name: "Manoj Jadhav",
       role: " ",
